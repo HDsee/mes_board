@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Noto Sans TC';
+}
+
+.form-message{
+    margin-bottom: 10px;
+}
+
+.form-file{
+    margin-bottom: 10px;
+}
+
+button{
+    color: black;
+    background: #ffffff;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.message-css {
+    margin: 10px 10px;
+    font-size: 15px; 
+}
+
+.image-css {
+    margin: 10px 10px;
+    font-size: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+}
